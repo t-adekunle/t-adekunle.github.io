@@ -1,0 +1,128 @@
+body {
+    background-color: #E5E4E2;
+}
+
+img {
+     height: auto;
+    max-width: 70%;     
+}
+
+#dressmaking{
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+    padding: 50px 10px 30px 80px;
+    margin: 10px 0px 10px 0px
+
+}
+
+#sculpting{
+    border-radius: 50%;
+    margin: 20px 0px 50px 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    font-size: 20px;
+    text-align: end;
+}
+
+a {
+    font-size: 10px;
+}
+
+ol{
+    color: blue;
+}
+
+ul{
+    color: indigo;
+}
+
+p {
+    margin: 0px 0px 50px 50px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px 10px; /*The gap proptery is a shorthand proterty for the row-gap and the column-gap properties*/
+    padding: 20px ;
+    background-color: darkcyan;
+    
+}
+.grid-item{
+    background-color: azure;
+    padding: 40px;
+    
+   
+  
+}
+
+#item1 {
+    font-size: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#item2 {
+    font-size: 40px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#item3 {
+    font-size: 40px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#item4 {
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#item5 {
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#item6 {
+    font-size: 30px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#item7 {
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#item8 {
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#item9 {
+    font-size: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
